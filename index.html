@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catálogo de Chaquetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Tienda de Chaquetas</h1>
+
+        <div class="controls">
+            <label for="categoria" class="sr-only">Filtrar por categoría</label>
+            <select id="categoria">
+                <option value="all">Todas</option>
+                <option value="lanudas">Lanudas</option>
+                <option value="cuero">Cuero</option>
+                <option value="jean">Jean</option>
+                <option value="impermeable">Impermeables</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid">
+
+            <!-- CHAQUETAS LANUDAS -->
+            <article class="card lanudas">
+                <img src="img/lanuda 2.jpg" alt="Chaqueta lanuda gris">
+                <h3>Lanuda Gris</h3>
+                <p class="price">$129.900</p>
+                <button class="btn" data-name="Lanuda Gris" data-desc="Chaqueta lanuda, muy cálida."
+                    data-price="$129.900" data-stock="10">VER</button>
+            </article>
+
+            <article class="card lanudas">
+                <img src="img/lanuda 1.jpg" alt="Chaqueta lanuda beige">
+                <h3>Lanuda Beige</h3>
+                <p class="price">$139.900</p>
+                <button class="btn" data-name="Lanuda Beige" data-desc="Chaqueta lanuda, suave y cómoda."
+                    data-price="$139.900" data-stock="8">VER</button>
+            </article>
+
+            <!-- CHAQUETAS DE CUERO -->
+            <article class="card cuero">
+                <img src="img/cuero 1.jpg" alt="Chaqueta de cuero negra">
+                <h3>Cuero Negra</h3>
+                <p class="price">$249.900</p>
+                <button class="btn" data-name="Cuero Negra" data-desc="Clásica chaqueta de cuero resistente."
+                    data-price="$249.900" data-stock="5">VER</button>
+            </article>
+
+            <article class="card cuero">
+                <img src="img/cuero 2.jpg" alt="Chaqueta de cuero marrón">
+                <h3>Cuero Marrón</h3>
+                <p class="price">$259.900</p>
+                <button class="btn" data-name="Cuero Marrón" data-desc="Cuero sintético, estilo moderno."
+                    data-price="$259.900" data-stock="3">VER</button>
+            </article>
+
+            <!-- CHAQUETAS DE JEAN -->
+            <article class="card jean">
+                <img src="img/jean 1.jpg" alt="Chaqueta de jean azul">
+                <h3>Jean Azul</h3>
+                <p class="price">$89.900</p>
+                <button class="btn" data-name="Jean Azul" data-desc="Chaqueta de jean resistente, look casual."
+                    data-price="$89.900" data-stock="20">VER</button>
+            </article>
+
+            <article class="card jean">
+                <img src="img/jean 2.jpg" alt="Chaqueta de jean clara">
+                <h3>Jean Claro</h3>
+                <p class="price">$84.900</p>
+                <button class="btn" data-name="Jean Claro" data-desc="Chaqueta de jean ligera y cómoda."
+                    data-price="$84.900" data-stock="18">VER</button>
+            </article>
+
+            <!-- CHAQUETAS IMPERMEABLES -->
+            <article class="card impermeable">
+                <img src="img/impermeable 1.jpg" alt="Chaqueta impermeable verde">
+                <h3>Impermeable Verde</h3>
+                <p class="price">$159.900</p>
+                <button class="btn" data-name="Impermeable Verde" data-desc="Impermeable ligero y plegable."
+                    data-price="$159.900" data-stock="12">VER</button>
+            </article>
+
+            <article class="card impermeable">
+                <img src="img/impermeable 2.jpeg" alt="Chaqueta impermeable negra">
+                <h3>Impermeable Negra</h3>
+                <p class="price">$169.900</p>
+                <button class="btn" data-name="Impermeable Negra" data-desc="Resistente al viento y la lluvia."
+                    data-price="$169.900" data-stock="6">VER</button>
+            </article>
+
+        </div>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+
+
+</html>
